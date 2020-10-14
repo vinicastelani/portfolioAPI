@@ -1,0 +1,40 @@
+{
+  "name": "portfolioapi",
+  "version": "1.0.0",
+  "description": "Rest API for the portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vinicastelani/portolio.git"
+  },
+  "keywords": [
+    "vinicius",
+    "castelani",
+    "portfolio",
+    "react"
+  ],
+  "author": "Vinicius Castelani dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicastelani/portolio/issues"
+  },
+  "homepage": "https://github.com/vinicastelani/portolio#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
