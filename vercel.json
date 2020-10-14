@@ -1,0 +1,7 @@
+{
+    "name": "serverapi",
+    "version": 2,
+    "env": {
+        "MONGODB_URI": "@server-uri"
+    }
+}
