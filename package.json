@@ -20,9 +20,9 @@
   "author": "Vinicius Castelani dos Santos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vinicastelani/portolio/issues"
+    "url": "https://github.com/vinicastelani/portolioAPI/issues"
   },
-  "homepage": "https://github.com/vinicastelani/portolio#readme",
+  "homepage": "https://github.com/vinicastelani/portolioAPI#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0"
