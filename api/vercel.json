@@ -9,7 +9,7 @@
     ],
     "routes": [
         {
-            "src": "(.*)",
+            "src": "/session/",
             "dest": "./index.js"
         }
     ],
