@@ -31,4 +31,4 @@ router.get("/teste", (req, res) => {
   }
 });
 
-module.exports = router;
+module.exports = (app) => app.use("/session", router);
