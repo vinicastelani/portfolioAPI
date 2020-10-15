@@ -17,7 +17,7 @@ router.put("/user/:id", async (req, res) => {
   res.status(200).send({ message: "Sessão atualizada", user: req.body });
 });
 
-router.get("/:id", async (req, res) => {
+router.get("/user/:id", async (req, res) => {
   const user = await User.findById(req.params.id);
   if (!user) return res.status(400).send({ error: "Usuário não encontrado" });
   res.status(200).send({ user });
